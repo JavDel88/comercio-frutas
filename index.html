@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fruver</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img class="logo-image" src="assets/logo.png" alt="logo fruver"/>FRUVER</a>
+        </div>
+        <nav class="navbar">
+          <a href="#inicio">Inicio</a>
+          <a href="#productos">Productos</a>
+          <a href="#acerca">Acerca</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="inicio" class="home section">
+        <article class="hero-image">
+          <aside class="hero-image-opacity">
+            <div class="hero-image-content">
+              <h2 class="hero-image-title">
+                Encuentra las frutas <br>mas frescas del mercado
+              </h2>
+              <a href="#productos" class="btn">Ver los productos</a>
+            </div>
+          </aside>
+        </article>
+      </section>
+      <section id="productos" class="products container section">
+        <div class="wrapper">
+          <div id="items" class="items"></div>
+          <aside class="">
+            <h2>Carrito</h2>
+            <ul id="carrito" class=""></ul>
+            <hr />            
+            <p class="">Total: &dollar; <span id="total"></span></p>
+            <button id="clear" class="btn danger">Vaciar</button>
+            <button id="buy" class="btn ">Comprar</button>
+          </aside>
+        </div>
+      </section>
+    </main>
+      <footer id="acerca" class="footer section">
+        <ul>CONOCENOS
+            <li><a href="#">Misión</a></li>
+            <li><a href="#">Visión</a></li>
+            <li><a href="#">Programas de ayuda al productor</a></li>
+        </ul>
+          <ul>SIGUENOS EN:
+              <li><a href="#"><img src="assets/whatsapp.png"></a></li>
+              <li><a href="#"><img src="assets/facebook.png"></a></li>
+              <li><a href="#"><img src="assets/instagram.png"></a></li>
+          </ul>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
